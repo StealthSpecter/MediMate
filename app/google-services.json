@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "539820858244",
+    "project_id": "healthcareaccess-cc09b",
+    "storage_bucket": "healthcareaccess-cc09b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539820858244:android:eb0239b78b3a8a8372dbd1",
+        "android_client_info": {
+          "package_name": "com.example.healthcareaccess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2NwzSgGExan6CU7IQSnHUM32heTXLvt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
