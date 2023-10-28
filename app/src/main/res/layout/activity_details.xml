@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/img"
+        tools:srcCompat="@tools:sample/avatars"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="151dp">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:textSize="20dp"
+            android:text="Dr. Thaddeus Blackthorn is a distinguished surgeon with over two decades of experience. His expertise in orthopedic surgery and compassionate patient care have earned him a stellar reputation in the medical community. He is known for his precision in complex surgical procedures and his commitment to improving patients' quality of life." />
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="445dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="76dp"
+        android:layout_marginStart="55dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Me"
+            android:id="@+id/button1"
+            android:layout_marginStart="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Video Call"
+            android:layout_marginLeft="42dp"
+            android:id="@+id/button2" />
+
+    </LinearLayout>
+
+</LinearLayout>
