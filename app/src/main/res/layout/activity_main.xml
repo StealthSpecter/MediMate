@@ -126,7 +126,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="201dp"
-        android:layout_marginStart="21dp"
+        android:layout_marginStart="31dp"
         android:text="Features"
         android:textAlignment="textStart"
         android:textColor="#F0000000"
